@@ -1,0 +1,16 @@
+hdfs:
+  image: sequenceiq/hadoop-docker:2.4.1
+  command: /etc/bootstrap.sh -d -bash
+mazerunner:
+  image: kbastani/neo4j-graph-analytics
+  links:
+   - hdfs
+graphdb:
+  image: kbastani/docker-neo4j
+  ports:
+   - "7474:7474"
+  volumes:
+   - .:/opt/data
+  links:
+   - mazerunner
+   - hdfs
