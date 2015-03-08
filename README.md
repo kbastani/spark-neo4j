@@ -16,7 +16,8 @@ Get Docker:  [https://docs.docker.com/installation/](https://docs.docker.com/ins
 
 To install **Spark Neo4j** on your machine, follow this install guide:
 
-* [Mac OSX](https://github.com/kbastani/spark-neo4j/wiki/Installation)
+* [Mac OSX](https://github.com/kbastani/spark-neo4j/wiki/Mac-OSX-Install-Guide)
+* [Linux](https://github.com/kbastani/spark-neo4j/wiki/Linux-Install-Guide)
 
 ## Graph Analytics Engine
 
