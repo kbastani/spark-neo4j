@@ -37,6 +37,7 @@ The results of an analysis by the Apache Spark container are applied back to Neo
 
 * PageRank
 * Closeness Centrality
+* Betweenness Centrality
 * Triangle Counting
 * Connected Components
 * Strongly Connected Components
